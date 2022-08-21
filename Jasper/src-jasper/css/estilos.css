@@ -2,24 +2,32 @@ h1{
   font-size: 40px;
   font-family: 'Bungee Shade', cursive;
   color: #802525;
+} 
+
+body {
+  background-image: url(../imgs/jasper-site.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
+
 header{
   color:#802525;
 }
+
 .navbar-collapse{
   text-align: center;
-  position: center;
 }
 .navbar{
-  background-color:white !important;
-  position: static;
+  position:static;
+  background: rgba(255, 255, 255, 0.25) !important; 
   top: 0;
   right: 0;
   left: 0;
 }
+
 .nav-link:hover{
   color: #802525;
-  background-color: white;
   border-bottom-style: solid;
   border-bottom-color: #802525;
   border-width: 5px;
