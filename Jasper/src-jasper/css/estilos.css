@@ -1,8 +1,16 @@
-h1{
+h1 {
   font-size: 40px;
   font-family: 'Bungee Shade', cursive;
   color: #802525;
 } 
+
+.nav-item {
+  padding-right: 50px;
+}
+
+.navbar-brand {
+  padding-left: 20px !important;
+}
 
 body {
   background-image: url(../imgs/jasper-site.png);
@@ -11,14 +19,15 @@ body {
   min-height: 100vh;
 }
 
-header{
+header {
   color:#802525;
 }
 
-.navbar-collapse{
+.navbar-collapse {
   text-align: center;
 }
-.navbar{
+
+.navbar {
   position:static;
   background: rgba(255, 255, 255, 0.25) !important; 
   top: 0;
@@ -26,9 +35,10 @@ header{
   left: 0;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: #802525;
   border-bottom-style: solid;
   border-bottom-color: #802525;
   border-width: 5px;
 }
+
