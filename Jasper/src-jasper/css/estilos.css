@@ -5,7 +5,7 @@ h1 {
 } 
 
 .nav-item {
-  padding-right: 50px;
+  padding-right: 90px;
 }
 
 .navbar-brand {
@@ -40,5 +40,68 @@ header {
   border-bottom-style: solid;
   border-bottom-color: #802525;
   border-width: 5px;
+}
+
+.d-flex {
+  padding-right: 85px !important;
+}
+
+.titulo {
+  width:260px;
+  height:400px;
+  float:left;
+  margin-left: 220px;
+  margin-top: 90px;
+
+}
+
+.fonte {
+  text-align: left;
+  line-height: 1.5;
+  font-family: bebas-neue,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  color: #802525
+}
+
+.conteudo {
+  width:400px;
+  height: 220px;
+  margin-right: 250px;
+  margin-top: 150px;
+  float: right;
+}
+
+.fonte-2 {
+  font-family: 'Amiko', sans-serif;
+  text-align: justify;
+  color: #895736;
+}
+
+.buttom {
+  width: 400px;
+  height: 70px;
+  margin-top: 80px;
+  margin-right: 250px;
+  float: right;
+}
+
+.botao {
+  font-family: 'Amiko', sans-serif;
+  color: #d9d0d0;
+  background-color: #a34646;
+  width: 150px;
+  height: 50px;
+  margin-left: 100px;
+  border-radius: 50px;
+  border: 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  box-shadow: #802525 0px 7px 15px 0px;
+}
+
+.botao:hover {
+  background-color: #802525;
 }
 
