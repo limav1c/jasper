@@ -1,0 +1,19 @@
+h1 {
+    font-size: 40px;
+    font-family: 'Bungee Shade', cursive;
+    color: #802525;
+  } 
+  
+body {
+  background-image: url(../imgs/fundo-site.jpeg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.navbar {
+  position:static;
+  background: rgba(255, 255, 255, 0.25) !important; 
+  top: 0;
+  right: 0;
+  left: 0;
+}

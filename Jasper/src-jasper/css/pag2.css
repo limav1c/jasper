@@ -1,0 +1,54 @@
+h1 {
+    font-size: 40px;
+    font-family: 'Bungee Shade', cursive;
+    color: #802525;
+  } 
+  
+body {
+  background-image: url(../imgs/fundo-site.jpeg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.navbar {
+  position:static;
+  background: rgba(255, 255, 255, 0.25) !important; 
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.titulo {
+  width:240px;
+  height: 430px;
+  float:left;
+  margin-left: 220px;
+  margin-top: 90px;
+
+}
+
+.fonte {
+  text-align: left;
+  line-height: 1.5;
+  font-family: bebas-neue,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color: #802525
+}
+
+.botao {
+  font-family: 'Amiko', sans-serif;
+  color: #d9d0d0;
+  background-color: #a34646;
+  width: 240px;
+  height: 40px;
+  border: 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  box-shadow: #802525 0px 7px 15px 0px;
+}
+
+.botao:hover {
+  background-color: #802525;
+}
