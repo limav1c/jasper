@@ -14,13 +14,8 @@ h1 {
 
 body {
   background-image: url(../imgs/jasper-site.png);
-  background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
-}
-
-header {
-  color:#802525;
 }
 
 .navbar-collapse {
