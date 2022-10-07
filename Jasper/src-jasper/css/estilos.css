@@ -42,61 +42,56 @@ body {
 }
 
 .titulo {
-  width:260px;
-  height:400px;
-  float:left;
-  margin-left: 220px;
-  margin-top: 90px;
-
+  width:200px;
+  height: 500px;
+  margin-top: 25%;
+  margin-left: 10%;
+  
 }
-
+  
 .fonte {
-  text-align: left;
-  line-height: 1.5;
+  line-height: 1.6;
   font-family: bebas-neue,sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 70px;
-  color: #802525
+  font-size: 75px;
+  color: #802525;
 }
-
+  
 .conteudo {
   width:400px;
-  height: 220px;
-  margin-right: 250px;
-  margin-top: 150px;
-  float: right;
+  margin-top: 33%;
+  font-size: large;
 }
-
+  
 .fonte-2 {
   font-family: 'Amiko', sans-serif;
   text-align: justify;
   color: #895736;
 }
 
-.buttom {
-  width: 400px;
-  height: 70px;
-  margin-top: 80px;
-  margin-right: 250px;
-  float: right;
+.alinhamento{
+  margin-left: 14%;
 }
 
 .botao {
   font-family: 'Amiko', sans-serif;
   color: #d9d0d0;
   background-color: #a34646;
-  width: 150px;
-  height: 50px;
-  margin-left: 100px;
+  width: 200px;
+  height: 70px;
   border-radius: 50px;
   border: 0;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   box-shadow: #802525 0px 7px 15px 0px;
 }
-
+  
 .botao:hover {
   background-color: #802525;
+}
+  
+.buttom {
+  margin-top: 3%;
 }
 
