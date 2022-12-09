@@ -17,3 +17,64 @@ body {
   right: 0;
   left: 0;
 }
+
+.row {
+  margin-top: 90px;
+
+}
+
+.fonte {
+  text-align: center;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  color: #802525;
+}
+
+.botao {
+  font-family: 'Amiko', sans-serif;
+  color: #d9d0d0;
+  background-color: #a34646;
+  width: 160px;
+  height: 35px;
+  border: 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  box-shadow: #802525 0px 7px 15px 0px;
+  align-items: center;
+  font-size: 15px;
+}
+
+.prox{
+  margin: 50px;
+  display: flex;
+
+}
+
+.botao:hover {
+  background-color: #802525;
+}
+
+form{
+  display: flex;
+}
+
+.circulo {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #802525;
+  align-items: center;
+  font-family: sans-serif;
+  color: #d9d0d0;
+  text-align: center;
+  font-size: 50px;
+  border: none;
+}
+
+input::placeholder {
+  color: #d9d0d0;
+}
