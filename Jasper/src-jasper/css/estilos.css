@@ -14,8 +14,11 @@ h1 {
 
 body {
   background-image: url(../imgs/jasper-site.png);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0%;
+  background-size: contain;
   min-height: 100vh;
+  background-color: #d9d0d0;
 }
 
 .navbar-collapse {
@@ -44,7 +47,7 @@ body {
 .titulo {
   width:200px;
   height: 500px;
-  margin-top: 25%;
+  margin-top: 20%;
   margin-left: 10%;
   
 }
@@ -57,13 +60,13 @@ body {
   font-size: 75px;
   color: #802525;
 }
-  
+
 .conteudo {
   width:400px;
-  margin-top: 33%;
+  margin-top: 30%;
   font-size: large;
 }
-  
+
 .fonte-2 {
   font-family: 'Amiko', sans-serif;
   text-align: justify;
@@ -71,15 +74,15 @@ body {
 }
 
 .alinhamento{
-  margin-left: 14%;
+  margin-left: 22%;
 }
-
+ 
 .botao {
   font-family: 'Amiko', sans-serif;
   color: #d9d0d0;
   background-color: #a34646;
-  width: 200px;
-  height: 70px;
+  width: 190px;
+  height: 60px;
   border-radius: 50px;
   border: 0;
   cursor: pointer;
@@ -92,6 +95,66 @@ body {
 }
   
 .buttom {
-  margin-top: 3%;
+  margin-top: 7%;
+}
+  
+.curiosidades{
+  font-family: bebas-neue,sans-serif;
+  font-size: 45px;
+  color: #802525;
+  margin-top: 10%;
+  margin-left: 3%;
 }
 
+.foto{
+  margin-top: 3%;
+  cursor: pointer;
+}
+
+.foto1{
+  margin-top: -5%;
+  cursor:pointer;
+}
+
+.alinhamento1{
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.alinhamento2{
+  margin-left: 15%;
+}
+
+.alinhamento3{
+  margin-left: 35%;
+}
+
+.quemsomos{
+  font-family: bebas-neue,sans-serif;
+  font-size: 45px;
+  color: #802525;
+  margin-top: -4%;
+  margin-left: 3%;
+}
+
+.altura{
+  margin-top: 10%;
+}
+
+form{
+  display: flex;
+}
+
+.circulo {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #802525;
+  align-items: center;
+  font-family: sans-serif;
+  color: #d9d0d0;
+  text-align: center;
+  font-size: 50px;
+  border: none;
+}
